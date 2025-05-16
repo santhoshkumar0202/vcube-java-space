@@ -1,0 +1,18 @@
+package com.Vcubeforloop;
+
+public class Loop_pratice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int c=0;
+for (int i=1;;System.out.println("bollo")) {
+	System.out.println("hello");
+	System.out.println(i);
+	if(i>=10) {
+	break;
+	}	
+	i++;
+}
+	}
+
+}

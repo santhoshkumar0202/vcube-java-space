@@ -1,0 +1,54 @@
+package com.vcube.garbage_collector;
+
+
+
+public class GcTestDemoMethod_Behaviour {
+// overiding the finalize method
+	
+	@Override
+	protected void finalize() {
+		System.out.println("final has been called");
+	}
+	
+	
+	// static variables 
+	static String className = "gc class";
+	static GcTestDemoMethod_Behaviour obj1 = new GcTestDemoMethod_Behaviour();
+//instance
+	int age = 22;
+	String name = "santhosh kumar";
+	String course = "java fullstack";
+	int id = 1;
+	// 2nd static block has been defined here
+	static {
+		System.out.println("This is a first stack block");
+//		static GcTestDemoMethod_Behaviour obj2 = new GcTestDemoMethod_Behaviour();
+		
+	}
+	// 2nd static block has been defined here
+	static {
+		System.out.println("This is a second stack block");
+	}
+
+	// here is our main entry point which is main method
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 System.gc();
+		System.out.println("hello world , this is my first gc program");
+		System.out.println(className);
+//		System.out.println(obj2);
+//		 System.gc();
+     
+	}
+
+	// instance block has been defined here
+
+	{
+		System.out.println("This is a first Instance block");
+	}
+	
+	{
+		System.out.println("This is a second Instance block");
+	}
+
+}

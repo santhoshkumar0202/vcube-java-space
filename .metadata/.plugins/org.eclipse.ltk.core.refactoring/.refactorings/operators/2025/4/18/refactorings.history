@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;operators&apos;&#x0D;&#x0A;- Original project: &apos;operators&apos;&#x0D;&#x0A;- Original element: &apos;operators/src/xom.vcube.operators&apos;" description="Delete element" element1="/src&lt;xom.vcube.operators" element2="/src&lt;xom.vcube" element3="/src&lt;xom" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1745940805160" subPackages="false" version="1.0"/>
+</session>

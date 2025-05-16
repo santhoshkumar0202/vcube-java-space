@@ -1,0 +1,43 @@
+package com.vcube.assignment;
+
+import java.util.Scanner;
+
+public class Assignment_06_05_25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int a = 10;
+		int b = 70;
+		int c = 130;
+		int d = 30;
+		int biggest = a;
+
+		if (b > biggest) {
+			biggest = b;
+		}  if(c > biggest) {
+			biggest = c;
+		} if (d > biggest) {
+			biggest = d;
+		}
+		
+		System.out.println("biggest number of given numbers is : "+biggest);
+	
+		int value1=(a>b)?a:(b>c)?b:(c>d)?c:d;
+		
+		System.out.println("biggest number of given numbers is : "+value1+" using ternary");
+		
+		usingFor(sc);
+		sc.close();
+	}
+ static int usingFor(Scanner sc) {
+var a=sc.nextInt();
+var b=sc.nextInt();
+var c=sc.nextInt();
+var d=sc.nextInt();
+	 int value1=(a>b)?a:(b>c)?b:(c>d)?c:d;
+	 System.out.println(value1);
+	 sc.close();
+	return 0;
+ }
+}

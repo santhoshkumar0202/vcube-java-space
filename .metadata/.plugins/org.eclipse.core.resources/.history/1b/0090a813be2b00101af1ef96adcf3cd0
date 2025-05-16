@@ -1,0 +1,45 @@
+package ifelse_and_switch;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+	int number=sc.nextInt();
+	 switch (number) {
+	case 1:{
+		System.out.println("monday");
+		System.out.println("is lazy day");
+		Boolean bol=sc.nextBoolean();
+		switch (bol) {
+		case true:
+			System.out.println("play activity");
+			break;
+
+		default:
+			break;
+		}
+		break;}
+	case 2:
+		System.out.println("tuseday");
+		System.out.println("work mode day");
+		System.out.println("im on it");
+		break;
+	case 3:
+		System.out.println("wednesday");
+		break;
+	case 4:
+		System.out.println("thursdat");
+		break;
+	
+	default:
+		System.out.println("invalid number");
+//		break;
+	}
+	 sc.close();
+	}
+
+}

@@ -1,0 +1,51 @@
+package com.vcube.assignment;
+
+import java.util.Scanner;
+
+public class Assignment_14_05_25 {
+
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n =10;
+for (int i = 1; i < n; i++) {
+	if(new Assignment_14_05_25().isPrime(i)) {
+		
+		System.out.print(i+" ");
+	}
+	
+}
+		
+	}
+	
+	boolean isPrime(int i) {
+		boolean prime_number=true;
+		if(i==0 || i==1) {
+			prime_number=false;
+		}
+		for (int j = 2; j < i; j++) {
+			if(i%j==0) {
+				
+				prime_number=false;
+				break;
+			};
+			
+		}
+		return prime_number;
+	}
+
+	void amstrong(int i) {
+		
+		System.out.println("give the number to check the given number is amstrong or not");
+		int number=sc.nextInt();
+		 int temp= number;
+		 int count= new Integer(number).toString().length();
+		 ()
+		 while ) {
+			
+		}
+		 
+		
+		
+	}
+}

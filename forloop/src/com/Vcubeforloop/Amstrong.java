@@ -1,0 +1,44 @@
+package com.Vcubeforloop;
+
+//import java.lang.runtime.TemplateRuntime;
+
+import java.util.Scanner;
+
+public class Amstrong {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number to check the given number");
+		int number= sc.nextInt();
+		int temp=number;
+		  int reminder=0;
+		  int result =0;
+		  String hI=new Integer(number).toString();
+		
+		Integer h=new Integer(10);
+		  int cout=hI.length();
+		  
+		  while (number!=0) {
+			reminder=number%10;
+			number=number/10;
+//			result=result+reminder*reminder*reminder;
+		
+			result=(int) (result+Math.pow(reminder, cout));
+			
+			
+		}
+		
+		  if (result==temp) {
+			
+			  System.out.println("is a amstrong number");
+			  
+		}else {
+			
+			System.out.println("is not a amstrong number");
+		}
+		
+
+	}
+
+}

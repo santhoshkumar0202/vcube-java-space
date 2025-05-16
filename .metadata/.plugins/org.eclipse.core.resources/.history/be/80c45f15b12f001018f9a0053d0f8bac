@@ -1,0 +1,26 @@
+package com.vcube.assignment;
+
+import java.lang.foreign.AddressLayout;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class GuessTheRandomNo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int random= (int)(Math.random()*100);
+System.out.println("guess the single digit number");
+Scanner sc=new Scanner(System.in);
+
+for (int i = 0; i < 3; i++) {
+	int user_guess =sc.nextInt();
+	if (random==user_guess) {
+		System.out.println("you won the guessing game");
+	}else {
+		System.out.println("you ran out of chances");
+	}
+	
+}
+	}
+
+}

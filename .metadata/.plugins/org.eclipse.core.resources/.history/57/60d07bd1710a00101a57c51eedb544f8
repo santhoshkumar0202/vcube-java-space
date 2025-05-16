@@ -1,0 +1,10 @@
+package com.vcube.garbage_collector;
+
+public class GcTestDemoMethod_Behaviour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

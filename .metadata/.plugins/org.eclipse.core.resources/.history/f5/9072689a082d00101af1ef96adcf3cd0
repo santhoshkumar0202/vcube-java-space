@@ -1,0 +1,10 @@
+package ifelse_and_switch;
+
+public class Swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

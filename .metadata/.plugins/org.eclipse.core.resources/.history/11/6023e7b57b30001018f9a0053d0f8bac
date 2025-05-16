@@ -1,0 +1,36 @@
+package com.vcube.assignment;
+
+import java.util.Iterator;
+
+public class Assignment_14_05_25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n =10;
+for (int i = 1; i < n; i++) {
+	if(new Assignment_14_05_25().isPrime(i)) {
+		
+		System.out.print(i+" ");
+	}
+	
+}
+		
+	}
+	
+	boolean isPrime(int i) {
+		boolean prime_number=true;
+		if(i==0 || i==1) {
+			prime_number=false;
+		}
+		for (int j = 2; j < i; j++) {
+			if(i%j==0) {
+				
+				prime_number=false;
+				break;
+			};
+			
+		}
+		return prime_number;
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.vcube;
+
+//public class FirstClass {
+//
+//}
+
+public class FirstClass {
+    public static void main123(String[] args ) {
+        System.out.println("hello world");
+//        main();
+    }
+//    public static void main() {
+//    	System.out.println("hello world12");
+//    }
+}

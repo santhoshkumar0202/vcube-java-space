@@ -1,0 +1,21 @@
+package com.vcube.garbage_collector;
+
+public class GcTestDemoMethod_Behaviour {
+
+	int age=22;
+   String name="santhosh kumar";
+	String course="java fullstack";
+	int id=1;
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+	}
+
+}

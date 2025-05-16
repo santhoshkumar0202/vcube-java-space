@@ -1,0 +1,96 @@
+package com.vcube.assignment;
+
+import java.util.Scanner;
+
+
+
+public class Assignment_14_05_25 {
+
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		new Assignment_14_05_25().amstrong(152);
+//		new Assignment_14_05_25().palandrome(123);;
+		new Assignment_14_05_25().primeNumber(9);;
+		
+	}
+	// palandome method
+	void primeNumber(int num) {
+		
+		int n =num;
+		for (int i = 1; i < n; i++) {
+			if(new Assignment_14_05_25().isPrime(i)) {
+				
+				System.out.print(i+" ");
+			}
+			
+		}
+	}
+	boolean isPrime(int i) {
+		boolean prime_number=true;
+		if(i==0 || i==1) {
+			prime_number=false;
+		}
+		for (int j = 2; j < i; j++) {
+			if(i%j==0) {
+				
+				prime_number=false;
+				break;
+			};
+			
+		}
+		return prime_number;
+	}
+
+	//amstrong method
+	void amstrong(int i) {
+		
+		System.out.println("give the number to check the given number is amstrong or not");
+		int number=i;
+		 int temp= number;
+		 int count= new Integer(number).toString().length();
+		 int remainder=0;
+		 int result=0;
+		 
+		 while(number!=0){
+			remainder=number%10;
+			number=number/10;
+			result=result+remainder*remainder*remainder;
+			/* or we can use this
+			result=result+Math.pow(remainder, count);
+			*/
+			
+			 
+		}
+		 
+		 if (result==temp) {
+			System.out.println("is a amstrong number");
+		}else {
+			System.out.println("no a amstrong number");
+		}
+		 
+		
+		
+	}
+//palandrome method
+	void palandrome(int i) {
+		int number=i; //121
+		int temp=number;
+		int remainder=0;
+		int result=0;
+		while (number!=0) {
+			remainder=number%10;// 1,2,
+			number=number/10;//12,1,
+			result=result*10+remainder;//0*10+1,1*10+2,12-->12*10+1==121
+		}
+		if (result==temp) {
+			System.out.println("is a palandrome");
+		}else {
+			System.out.println("is not a palandome");
+		}
+		
+	}
+	
+	
+
+}

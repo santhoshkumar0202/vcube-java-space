@@ -1,0 +1,31 @@
+package com.Vcubeforloop;
+
+import java.util.Scanner;
+
+public class DecimalToBinary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter the given number to convert decimal to binary");
+	
+		String binary ;
+		int decimal = sc.nextInt();
+		
+		while (decimal>0) {
+			if(decimal==0) {
+				
+				binary="0";
+			}
+			
+			binary=(decimal%2)+binary;
+			decimal=decimal/2;
+			
+			
+		}
+		
+		System.out.println("The converted binary number is : "+binary);
+		
+	}
+
+}

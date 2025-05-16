@@ -1,0 +1,31 @@
+package com.vcube.assignment;
+
+public class Assignment_06_05_25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10;
+		int b = 70;
+		int c = 130;
+		int d = 30;
+		int biggest = a;
+
+		if (b > biggest) {
+			biggest = b;
+		}  if(c > biggest) {
+			biggest = c;
+		} if (d > biggest) {
+			biggest = d;
+		}
+		
+		System.out.println("biggest number of given numbers is : "+biggest);
+	
+		int value1=(a>b)?a:b;
+		
+		System.out.println("biggest number of given numbers is : "+value1+" using ternary");
+	}
+
+
+	
+	
+}

@@ -1,0 +1,17 @@
+package com.vucbe.case_studies;
+
+public class Case_study_10_05_25 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for (int i=1;i<=10 ;System.out.println(i=i+2)) {
+			System.out.println("entering to the loop");
+//			break;
+			
+		}
+		
+
+	}
+
+}

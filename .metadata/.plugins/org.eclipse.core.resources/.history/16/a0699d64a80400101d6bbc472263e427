@@ -1,0 +1,29 @@
+package com.vcube;
+
+public class DataMethods {
+	//here we define the instance variables and static variables 
+	//instance variable
+	int playerid;
+	String playername;
+//static variables
+	static int countryid;
+	static String countryname;
+	
+public static void main(String[] args) {
+	
+	System.out.println("hello, static vaiable calling below");
+	System.out.println(countryid);
+	System.out.println(countryname);
+	// instance variable accessing
+	DataMethods playerDetails=new DataMethods();
+	playerDetails.playerid=20;
+	playerDetails.playername="dhoni"
+	System.out.println(playerDetails.playerid);
+	System.out.println(playerDetails.playername);
+	
+	
+	
+	
+	
+}
+}

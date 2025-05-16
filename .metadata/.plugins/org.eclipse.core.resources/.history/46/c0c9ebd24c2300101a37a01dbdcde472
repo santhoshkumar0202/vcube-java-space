@@ -1,0 +1,66 @@
+package com.vcube.constructors;
+
+public class Animalsuper {
+	String name = "golden";
+	String breed = "golden retriver";
+	
+
+	public Animalsuper(String name, String breed) {
+		// TODO Auto-generated constructor stub
+		System.out.println("hello bhai 01");
+		this.name = name;
+		System.out.println("hello bhai 02");
+		this.breed = breed;
+	}
+	public Animalsuper(String name) {
+		// TODO Auto-generated constructor stub
+		System.out.println("with single arg");
+		
+	}
+
+	
+
+	public static void main(String[] args) {
+		Animalsuper animal = new Animalsuper("huski");
+		
+		Animalsuper animal1 = new Animalsuper("pukki", "huski");
+		animal.showdeatils();
+
+	}
+
+	void showdeatils() {
+		System.out.println(this.name);
+		System.out.println(this.breed);
+	}
+	
+	void methodof() {
+System.out.println("parent class");
+}
+	}
+
+class Dog extends Animalsuper {
+	
+String name;
+	public Dog(String name) {
+		super(" ");
+			this.name=name;
+			
+			System.out.println("subclass cons has been called");
+		
+	}
+
+	public static void main(String[] args) {
+
+		Dog d = new Dog("siri");
+		d.PrinterName();
+		d.methodof();
+	}
+
+	void PrinterName() {
+	
+		System.out.println(name);
+		System.out.println(super.name);
+		System.out.println(super.name);
+	
+	}
+}

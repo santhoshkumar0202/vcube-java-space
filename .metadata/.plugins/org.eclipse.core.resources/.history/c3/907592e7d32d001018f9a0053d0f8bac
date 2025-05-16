@@ -1,0 +1,21 @@
+package com.vcube.arrays;
+
+import java.nio.file.FileSystemNotFoundException;
+import java.util.Scanner;
+
+public class Arrays {
+public static void main(String[] args) {
+	Scanner sc =new Scanner(System.in);
+	
+	int a=sc.nextInt();
+	int b=sc.nextInt();
+	String c=sc.next();
+	String d=sc.next();
+	
+boolean v=(a==b)?true:false;
+boolean m=(a==b)?true:false;
+
+System.out.println(m);
+	
+}
+}
