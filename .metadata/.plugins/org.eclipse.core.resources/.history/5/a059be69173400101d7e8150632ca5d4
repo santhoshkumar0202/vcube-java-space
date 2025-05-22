@@ -1,0 +1,22 @@
+package com.vcube.arrays;
+
+public class JaggedArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int arr[][]= new int[2][];
+		
+		for (int[] a : arr) {
+//			System.out.println(1+1);
+			for (int l : a) {
+				System.out.println("o"+" ");
+			}
+		}
+		
+		
+		
+		
+	}
+
+}

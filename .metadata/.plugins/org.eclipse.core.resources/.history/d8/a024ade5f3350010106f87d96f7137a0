@@ -1,0 +1,25 @@
+package com.vcube.arrays;
+
+public class Sumoftwoarrys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = { 5, 4, 3 };
+		int[] b = { 1, 2, 3 };
+		System.out.println(sumOfArrys(a, b));
+	}
+	
+
+	public static int[] sumOfArrys(int[] a, int[] b) {
+		int[] result ;
+		if (a.length==b.length) {
+			 result= new int[a.length];
+		}
+//		int[] result = new int[a.length];
+		for (int i = 0; i < b.length; i++) {
+result[0]=a[0]+b[0];
+		}
+		return result;
+	}
+
+}

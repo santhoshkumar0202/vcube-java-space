@@ -1,0 +1,32 @@
+package com.vcube.arrays;
+
+import java.util.Arrays;
+
+public class Reverse {
+	public static void main(String[] args) {
+		// Rotate logic is here
+		int[] arr = { 1, 2, 3, 4, 5, 6 };
+		// reverse
+		reverse(0, arr);
+
+// after reversing we rotate by specifying the start para passing into reverse arr
+		reverse(3, arr);
+
+	}
+
+	static void reverse(int start, int[] arr) {
+
+		// this code specifies reverse arr
+
+		int dec = arr.length - 1;
+		int inc = start;
+		while (inc < dec) {
+			int temp = arr[inc];
+			arr[inc] = arr[dec];
+			arr[dec] = temp;
+			inc++;
+			dec--;
+		}
+		System.out.println(Arrays.toString(arr));
+	}
+}

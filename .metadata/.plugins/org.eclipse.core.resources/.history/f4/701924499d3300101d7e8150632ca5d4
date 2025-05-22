@@ -1,0 +1,29 @@
+package com.vcube.arrays;
+
+public class ReversetheArray {
+	public static void main(String[] args) {
+		int[] a = { 12, 13, 14, 15 };
+
+		int r = 0;
+		int reversed = 0;
+		int count = 0;
+		int size=a.length;
+		while (size-1 >= 0) {
+int num=a[count];
+			while (num!= 0) {
+				
+				r=num%10;
+				reversed=reversed*10+r;
+				num=num/10;
+
+			}
+			a[count]=reversed;
+			System.out.print(a[count]+" ");
+			reversed=0;
+			count++;
+			size--;
+//			System.out.println(a);
+		}
+
+	}
+}

@@ -1,0 +1,19 @@
+package com.vcube.arrays;
+
+public class ArrayConcat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] a= {5,4,3};
+		int [] b= {1,2,3};
+		int [] c= new int [a.length+b.length];
+		
+	for (int i : c) {
+		System.out.println(i);
+	}
+		
+
+	}
+
+}

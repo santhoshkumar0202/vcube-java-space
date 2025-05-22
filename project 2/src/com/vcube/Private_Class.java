@@ -20,7 +20,7 @@ void setName(String name) {
 
 
 class private1 extends Private_Class{
-//	String name;
+	String name;
 //	String frieString;
 	
 	public private1() {

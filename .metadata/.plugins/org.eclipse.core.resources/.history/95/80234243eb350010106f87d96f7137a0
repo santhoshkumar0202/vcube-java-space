@@ -1,0 +1,27 @@
+package com.Vcubeforloop;
+
+import java.util.Arrays;
+
+public class Reverse {
+	public static void main(String[] args) {
+reverse(0);
+reverse(3);
+		
+
+	}
+	
+static	void reverse(int start) {
+		
+		int[] arr = { 1, 2, 3, 4 ,5,6};
+		int dec=arr.length-1;
+		int  inc=start;
+		while (inc<dec) {
+			int temp=arr[inc];
+			arr[inc]=arr[dec];
+				arr[dec]=temp;	
+			inc++;
+			dec--;
+		}
+		System.out.println(Arrays.toString(arr));
+	}
+}
