@@ -10,7 +10,7 @@ int age=25;
 		int[] b = { 1, 2, 10, 30 }; 
 //		System.out.println(Arrays.toString(sumOfArrys(a, b)));
 		
-		System.out.println(new Sumoftwoarrys().sumOfArrys(a, b);
+//		System.out.println(new Sumoftwoarrys().sumOfArrys(a, b);
 	}
 
 	public static int[] sumOfArrys(int[] a, int[] b) {
