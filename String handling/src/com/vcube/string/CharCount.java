@@ -3,16 +3,17 @@ package com.vcube.string;
 public class CharCount {
 	public static void main(String[] args) {
 		String s = "success";
+		String s1="abcaaabbcz";
 		String result = "";
-		char ch = s.charAt(0);
+		char ch = s1.charAt(0);
 		int count = 1;
 
-		for (int i = 1; i < s.length(); i++) {
-			if (ch == s.charAt(i)) {
+		for (int i = 1; i < s1.length(); i++) {
+			if (ch == s1.charAt(i)) {
 				count++;
 			} else {
 				result = result + ch + count;
-				ch=s.charAt(i);
+				ch=s1.charAt(i);
 				count=1;
 			}
 		}

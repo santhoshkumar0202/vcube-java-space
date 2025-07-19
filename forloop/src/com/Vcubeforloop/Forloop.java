@@ -14,17 +14,14 @@ public class Forloop {
 //		System.out.println("Please enter the number to check the whether the given number is perfecct or not ");
 //		int perfect_no = sc.nextInt();
 //		perfect(perfect_no);
-		
-		
-		
-		
+
 //		System.out.println("Please enter the number to check the whether the given number is perfecct or not ");
 //	int fab_no = sc.nextInt();
 //		
 //		fabnoccies(fab_no);
-		
+
 		factorial(4);
-		System.out.println("Factorial by using recursive method : "+recursive_factorial(4));
+		System.out.println("Factorial by using recursive method : " + recursive_factorial(4));
 	}
 
 	static public void evenNumber(int n) {
@@ -63,61 +60,60 @@ public class Forloop {
 		 * perfect number is a number which sum of divisors of the given number equals
 		 * to actual given number then it said to be a perfect number
 		 */int sum = 0;
-		 System.out.println("Divisors of the given number "+(num) +" are :");
+		System.out.println("Divisors of the given number " + (num) + " are :");
 
 		for (int i = 1; i <= num / 2; i++) {
-			
-			if (num   %   i == 0)    {
+
+			if (num % i == 0) {
 				System.out.print(i + " \n");
 				sum = sum + i;
 			}
 
-		
 		}
-		
+
 		if (num == sum) {
-			System.out.println("The given number is perfect since the sum is eqaul to given number \nsum : "+sum+"\ngiven number is : "+ num);
+			System.out.println("The given number is perfect since the sum is eqaul to given number \nsum : " + sum
+					+ "\ngiven number is : " + num);
 		} else {
-			System.out.println("The given number is not perfect since the sum is not eqaul to given number \nsum : "+sum+"\ngiven number is : "+ num);
+			System.out.println("The given number is not perfect since the sum is not eqaul to given number \nsum : "
+					+ sum + "\ngiven number is : " + num);
 		}
 	}
 
-   static public void fabnoccies(int n) {
-	   int n1=0; // 0 1 1
-	   int n2=1;// 1 1  2
-	   int n3=0;//1  2  
-	   System.out.print("0 1");
-	   for (int i = 0; i < n; i++) {
-		   n3=n1+n2;
-		System.out.print(" "+n3);
-		
-		n1=n2;
-		n2=n3;
-		
-	}
-	   
-	   
-	   
-	   
-   }
+	static public void fabnoccies(int n) {
+		int n1 = 0; // 0 1 1
+		int n2 = 1;// 1 1 2
+		int n3 = 0;// 1 2
+		System.out.print("0 1");
+		for (int i = 0; i < n; i++) {
+			n3 = n1 + n2;
+			System.out.print(" " + n3);
 
-static public void factorial(int n) {
-	int fact=1;
-	 for (int i = 1; i <=n; i++) {
-		 // 3*1=3  3*2=6 6*3 
-		fact=fact * i;
-	}
-	 //if 4*4 answer will be 16
-	 System.out.print("Factorial for "+n+":"+(fact)+"\n");
-	 
-	
-	
-}
+			n1 = n2;
+			n2 = n3;
 
-static public int recursive_factorial(int n) {
-	
-	if(n==0) {return 1;};
-	
-	return n*recursive_factorial(n-1);
-}
+		}
+
+	}
+
+	static public void factorial(int n) {
+		int fact = 1;
+		for (int i = 1; i <= n; i++) {
+			// 3*1=3 3*2=6 6*3
+			fact = fact * i;
+		}
+		// if 4*4 answer will be 16
+		System.out.print("Factorial for " + n + ":" + (fact) + "\n");
+
+	}
+
+	static public int recursive_factorial(int n) {
+
+		if (n == 0) {
+			return 1;
+		}
+		;
+
+		return n * recursive_factorial(n - 1);
+	}
 }

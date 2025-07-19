@@ -26,16 +26,19 @@ public class SqlConnectionEh {
 	// result set
 	ResultSet re=st.executeQuery(sql);
 	// result represntation;
+	int count=0;
 	while (re.next()) {
  
 		
-		System.out.println(re.getString("hiredate")+" ");
+//		System.out.println(re.getString("hiredate")+" ");
+		System.out.println(re.getString(1)+" "+ re.getString(2)+" "+re.getString(3)+"  sal:-"+ re.getString(6));
 //		System.out.print(re.getString("2"));
 //		System.out.print(re.getString("2"));
-//		System.out.print(re.getString("2"));
-//		re.close();
+		re.close();
+		count++;
 		
 	}
+	System.out.println("count: "+count);
 		
 	}
 

@@ -18,7 +18,9 @@ class Child extends Parent {
     Child(String msg) {
 //        super(msg);
         System.out.println("Child says: " + msg);
-    }
+    }.
+    
+
 }
 
 public class Solution{

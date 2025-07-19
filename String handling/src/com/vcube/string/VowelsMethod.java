@@ -19,7 +19,7 @@ public class VowelsMethod {
 				}
 			}
 		}
-//		sc.close();
+		sc.close();
 		
 		System.out.println(vowelsCount);
 

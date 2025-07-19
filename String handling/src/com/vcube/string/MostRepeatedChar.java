@@ -5,7 +5,7 @@ public class MostRepeatedChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String input = "aabbcadddddcasanthoshhhhhhhhh";
+		String input = "aabhhbcaddddddcasanthosh";
 
 		String index = " ";
 

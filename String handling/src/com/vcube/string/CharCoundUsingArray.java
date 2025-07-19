@@ -24,7 +24,7 @@ public class CharCoundUsingArray {
                  frqchar=s.charAt(i);
 			}
 			// concate frequent char logic
-			if(!res.contains((char)s.charAt(i))) {
+			if(!res.contains((char)s.charAt(i)+"")) {
 				res+=" "+s.charAt(i)+arr[s.charAt(i)];
 			}
 		}
