@@ -13,7 +13,7 @@ public class jumbling {
 		for (String s : sp) {
 //			System.out.println(s.charAt(s.length()-1));
 			int a=Integer.parseInt(""+s.charAt(s.length()-1));
-			String fil=s.replaceAll("\\d", "kiran");
+			String fil=s.replaceAll("\\s", "kiran");
 			rsnew[a-1]=fil;
 			
 		}

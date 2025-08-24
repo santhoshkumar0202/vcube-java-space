@@ -12,9 +12,8 @@ public class uniqueChar {
 				news += s.charAt(i);
 			}
 		}
- 
+
 		System.out.println("filtered:- " + news);
 	}
 
 }
- 

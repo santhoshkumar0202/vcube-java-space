@@ -32,7 +32,7 @@ public class Testmobile {
 		for (Mobile itm : ms) {
 			System.out.println(itm);
 		}
-		System.out.println();
+		System.out.println("above one is no filter");
 
 		System.out.println("*******************");
 
@@ -47,7 +47,7 @@ public class Testmobile {
 		}
 		System.out.println();
 
-		System.out.println("*********ls**********");
+		System.out.println("*********lls**********");
 		ls.add(m1);
 		ls.add(m2);
 		ls.add(m3);

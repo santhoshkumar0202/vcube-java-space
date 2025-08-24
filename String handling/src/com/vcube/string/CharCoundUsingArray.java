@@ -6,7 +6,7 @@ public class CharCoundUsingArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "santhosh";
+		String s = "santhooosh";
 		int arr[] = new int[127];
 		int count = 0;
 		String res="";

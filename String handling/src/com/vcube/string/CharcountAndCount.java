@@ -9,12 +9,12 @@ public class CharcountAndCount {
 		String new_s = "";
 
 		for (int i = 0; i < s.length(); i++) {
-			int count = 0;
+			int count = 1;
 
 			char ch = s.charAt(i);
 			if (!new_s.contains("" + ch)) {
 
-				for (int j = 0; j < s.length(); j++) {
+				for (int j = i+1; j < s.length(); j++) {
 					if (s.charAt(j) == ch) {
 						count++;
 					}

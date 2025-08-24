@@ -11,7 +11,8 @@ public class CharSort {
 
 		Arrays.sort(arr);
 
-		System.out.println();
+		s=String.valueOf(arr);
+		System.out.println(s);
 
 	}
 }

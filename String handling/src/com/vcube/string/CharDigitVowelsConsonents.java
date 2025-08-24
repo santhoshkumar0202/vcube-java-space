@@ -36,6 +36,7 @@ public class CharDigitVowelsConsonents {
 		System.out.println("Vowels count " + vowels_count);
 		System.out.println("consonents count " + consonents_count);
 		System.out.println("total count " + total_char);// inlcuding white space and digits
+		
 
 	}
 
