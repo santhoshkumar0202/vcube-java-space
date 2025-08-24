@@ -755,3 +755,11 @@
 2025-08-24 13:03:04,354 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vcube:secondproject:0.0.1-SNAPSHOT @ C:\JavaWorkSpace\secondproject\pom.xml.
 2025-08-24 13:03:05,046 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vcube:firstmavenproject:0.0.1-SNAPSHOT @ C:\JavaWorkSpace\firstmavenproject\pom.xml.
 2025-08-24 13:03:05,456 [Worker-11: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.vcube:javaconfigproject:0.0.1-SNAPSHOT @ C:\JavaWorkSpace\javaconfigproject\pom.xml.
+2025-08-24 13:04:57,352 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:04:57,361 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 13:24:13,697 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:24:13,713 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 13:24:55,595 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:24:55,604 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 13:26:18,720 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:26:18,728 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
