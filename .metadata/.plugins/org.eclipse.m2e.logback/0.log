@@ -763,3 +763,5 @@
 2025-08-24 13:24:55,604 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
 2025-08-24 13:26:18,720 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
 2025-08-24 13:26:18,728 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 13:29:05,054 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:29:05,062 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
