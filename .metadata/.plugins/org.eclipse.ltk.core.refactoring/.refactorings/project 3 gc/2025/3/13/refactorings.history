@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;com.vcube.garbage_collector.GcTestDemo1.java&apos; to &apos;GcTestDemoReassign.java&apos;&#x0D;&#x0A;- Original project: &apos;project 3 gc&apos;&#x0D;&#x0A;- Original element: &apos;com.vcube.garbage_collector.GcTestDemo1.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.vcube.garbage_collector.GcTestDemoReassign.java&apos;" description="Rename compilation unit &apos;GcTestDemo1.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.vcube.garbage_collector{GcTestDemo1.java" name="GcTestDemoReassign.java" references="false" stamp="1743014117343" version="1.0"/>
-</session>
