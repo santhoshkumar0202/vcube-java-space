@@ -765,3 +765,11 @@
 2025-08-24 13:26:18,728 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
 2025-08-24 13:29:05,054 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
 2025-08-24 13:29:05,062 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 13:35:14,288 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:35:14,298 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 13:39:47,507 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 13:39:47,517 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 14:18:21,473 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 14:18:21,507 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
+2025-08-24 14:18:38,970 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\main\resources
+2025-08-24 14:18:38,980 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JavaWorkSpace\javaconfigproject\src\test\resources
