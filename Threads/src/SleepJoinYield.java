@@ -7,7 +7,7 @@ public class SleepJoinYield implements Runnable {
 
 		System.out.println("main method");
 		th.start();
-//	th.interrupt();
+	th.interrupt();
 		for (int i = 0; i < 10; i++) {
 			System.out.println("main:" + i);
 		}
@@ -19,16 +19,16 @@ public class SleepJoinYield implements Runnable {
 			// TODO Auto-generated method stub
 			for (int i = 0; i < 10; i++) {
 				System.out.println("run:" + i);
-				if (i > 1) {
-					Thread.currentThread().interrupt();
-				}
-				Thread.sleep(10000);
+//				if (i > 1) {
+//					Thread.currentThread().interrupt();
+//				}
+				Thread.sleep(1000);
 
 			}
 
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
-			System.out.println();
+//			System.out.println("interupted");
 			e.printStackTrace();
 		}
 	}
