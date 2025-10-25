@@ -14,6 +14,7 @@ class JThread1 extends Thread {
 			if (i == 75) {
 				try {
 					// instance method throws interrrupted exception
+					//it tell the sceduler to wait current thread untill th2 finishes
 					th2.join();
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block

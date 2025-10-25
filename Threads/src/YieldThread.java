@@ -5,10 +5,10 @@ public class YieldThread extends Thread {
 		// TODO Auto-generated method stub
 		YieldThread yt = new YieldThread();
 		YieldThread1 yt1 = new YieldThread1();
-		//below both are instance method
+		// below both are instance method
 		yt.setDaemon(true);
 		System.out.println(yt.isDaemon());
-		//instance method
+		// instance method
 		yt.start();
 		yt1.start();
 	}
@@ -16,7 +16,9 @@ public class YieldThread extends Thread {
 	@Override
 	public void run() {
 		for (int i = 0; i < 5; i++) {
-			Thread.yield();
+			if(i>2) {
+			Thread.yield();}
+			
 			System.out.println("yt:- " + i);
 		}
 	}
